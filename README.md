@@ -1,1 +1,0 @@
-# yubin-ary.github.io
