@@ -45,7 +45,7 @@ export default function Header({
     //
     return temp;
   };
-
+  //
   this.render = () => {
     this.$target.innerHTML = this.template();
     document.getElementById("sortList").addEventListener("change", (event) => {
