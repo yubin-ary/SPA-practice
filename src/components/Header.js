@@ -42,7 +42,7 @@ export default function Header({
             <input type="text" value="${searchWord}"placeholder="검색">
         </div>
     </div>`;
-
+    //
     return temp;
   };
 
