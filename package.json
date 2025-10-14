@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yubin-ary/yubin-ary.github.io/issues"
   },
-  "homepage": "https://github.com/yubin-ary/yubin-ary.github.io#readme"
+  "homepage": "https://github.com/yubin-ary/yubin-ary.github.io#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
