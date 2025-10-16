@@ -39,7 +39,7 @@ export default function Header({
             </select>
         </div>
         <div id="search">
-            <input type="text" value="${searchWord}"placeholder="검색">
+            <input type="text" value="${searchWord}"placeholder="⌕ 검색">
         </div>
     </div>`;
     //
@@ -54,7 +54,7 @@ export default function Header({
 
     document.getElementById("search").addEventListener("keydown", (event) => {
       if (event.key == "Enter") {
-        this.handleSearchWord(document.getElementById("search").value);
+        this.handleSearchWord(event.target.value);
       }
     });
   };

@@ -5,7 +5,7 @@ export const request = async (category, sortBy, searchWord) => {
     let url = `${API_URL}`;
     if (category && category !== "All") {
       url += `?category=${category}`;
-    }
+    } else url +=`category=All`;
     if (sortBy) {
       url += `&sort=${sortBy}`;
     }

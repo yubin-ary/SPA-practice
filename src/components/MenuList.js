@@ -12,8 +12,8 @@ export default function MenuList({ $app, initialState }) {
       temp += `
             <div class="menu-list-item">
                 <img src="${element.image}">
-                <div>${element.name}</div>
-                <div>${element.price} 원</div>
+                <div id="name-title">${element.name}</div>
+                <div id="menu-price">${element.price} 원</div>
             </div>`;
     });
     temp += "</div>";
