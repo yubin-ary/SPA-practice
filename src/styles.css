@@ -87,6 +87,11 @@ body {
 
   text-align: center;
 }
+.menu-list-item:hover {
+  transform: scale(1.08);
+  transform-origin: center;
+  transition: transform 150ms ease;
+}
 
 .menu-list-item img {
   width: 100%;
@@ -108,7 +113,7 @@ body {
 }
 .category {
   width: 98%;
-  margin-left: 10px;
+  margin-left: 17px;
 }
 .category div {
   display: inline-block;
